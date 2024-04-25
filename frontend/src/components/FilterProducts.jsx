@@ -75,7 +75,7 @@ const FilterProducts = () => {
 
 {
     loading ? <p className='text-sm text-white font-bold'>Loading...</p>:
-    products.data.length > 0 && (
+    products?.data?.length > 0 && (
         <>
             <InputText className='p-4 my-2'
             placeholder='Search'
