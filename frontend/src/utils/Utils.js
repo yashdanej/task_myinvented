@@ -13,7 +13,7 @@ export const changeText = (e, set, state,  setParam=false) => {
 
 export const api = async (pathname, method, body, formData=false, includeCredentials = false) => {
     const axiosConfig = {
-        url: `https://myinvented.onrender.com/${pathname}`,
+        url: `http://13.235.16.221/${pathname}`,
         method: method,
     };
     if(body){
